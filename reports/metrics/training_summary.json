@@ -1,0 +1,12 @@
+{
+    "selected_model": "Gradient Boosting",
+    "page_values_included": true,
+    "cv_average_precision": 0.7482120469045437,
+    "cv_roc_auc": 0.9277782386306411,
+    "cv_recall": 0.6192649737490624,
+    "cv_f1": 0.6677631979541236,
+    "oof_selected_threshold": 0.1308793166476187,
+    "oof_f2_score": 0.7645277745172205,
+    "training_rows": 9864,
+    "cross_validation_folds": 5
+}

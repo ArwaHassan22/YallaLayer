@@ -1,4 +1,6 @@
+
 pandas
+numpy
 scikit-learn
 ucimlrepo
 jupyterlab
@@ -6,3 +8,7 @@ ipykernel
 matplotlib
 seaborn
 statsmodels
+joblib
+shap
+streamlit
+plotly

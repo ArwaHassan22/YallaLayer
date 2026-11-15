@@ -1,0 +1,30 @@
+{
+    "dataset": {
+        "source": "UCI Online Shoppers Purchasing Intention",
+        "analysis_split": "Training Set",
+        "total_sessions": 9864,
+        "total_purchases": 1526,
+        "non_purchase_sessions": 8338
+    },
+    "overall_performance": {
+        "conversion_rate": 15.47
+    },
+    "best_segments_by_conversion": {
+        "best_month": "Nov",
+        "best_visitor_type": "New_Visitor",
+        "best_traffic_type_by_conversion_min_100_sessions": 8,
+        "best_day_type": "Weekend"
+    },
+    "traffic_comparison_rule": {
+        "minimum_sessions": 100,
+        "eligible_sources": 11,
+        "ranking_metric": "Conversion_Rate"
+    },
+    "interpretation_notes": [
+        "Each row represents a browsing session, not necessarily a unique customer.",
+        "TrafficType values are dataset codes, not verified platform names.",
+        "Conversion rates describe observed associations, not causal effects.",
+        "Quantile groups preserve tied values and may contain fewer than four levels.",
+        "The analysis uses the training split only."
+    ]
+}

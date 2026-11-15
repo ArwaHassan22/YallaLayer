@@ -1,0 +1,54 @@
+{
+    "model_name": "Gradient Boosting",
+    "page_values_included": true,
+    "selected_threshold": 0.1308793166476187,
+    "sample_size": 2000,
+    "original_feature_count": 17,
+    "encoded_feature_count": 74,
+    "positive_class": 1,
+    "shap_method": "TreeExplainer",
+    "global_importance_method": "Mean of per-sample sums of absolute encoded SHAP values grouped by original feature",
+    "signed_contribution_method": "Mean of per-sample sums of signed encoded SHAP values grouped by original feature",
+    "shap_output_space": "Raw model output; SHAP values are not probabilities or percentage changes",
+    "top_5_features": [
+        {
+            "Feature": "PageValues",
+            "Mean_Absolute_SHAP": 1.2184313124654367,
+            "Mean_Signed_SHAP": -0.09228736045486907,
+            "Mean_Absolute_Net_Grouped_SHAP": 1.2184313124654367
+        },
+        {
+            "Feature": "Month",
+            "Mean_Absolute_SHAP": 0.558623508505164,
+            "Mean_Signed_SHAP": 0.004178795281855501,
+            "Mean_Absolute_Net_Grouped_SHAP": 0.44915374954908976
+        },
+        {
+            "Feature": "ExitRates",
+            "Mean_Absolute_SHAP": 0.12772840655191717,
+            "Mean_Signed_SHAP": -0.028993518905809215,
+            "Mean_Absolute_Net_Grouped_SHAP": 0.12772840655191717
+        },
+        {
+            "Feature": "VisitorType",
+            "Mean_Absolute_SHAP": 0.11418869952191786,
+            "Mean_Signed_SHAP": 0.0011763303596572354,
+            "Mean_Absolute_Net_Grouped_SHAP": 0.11351810814272355
+        },
+        {
+            "Feature": "BounceRates",
+            "Mean_Absolute_SHAP": 0.10340660634474202,
+            "Mean_Signed_SHAP": -0.004491600801991624,
+            "Mean_Absolute_Net_Grouped_SHAP": 0.10340660634474202
+        }
+    ],
+    "individual_explanation": {
+        "sample_index": 9746,
+        "purchase_probability": 0.02012492157251256,
+        "predicted_class": 0,
+        "actual_class": 0,
+        "decision_threshold": 0.1308793166476187
+    },
+    "data_source": "Training set only",
+    "random_state": 42
+}
