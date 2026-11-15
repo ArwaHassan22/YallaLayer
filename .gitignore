@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*
+data/splits/*
+!data/raw/.gitkeep
+!data/splits/.gitkeep
+
+# Local model artifacts
+models/*
+!models/.gitkeep
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Reports generated locally
+reports/metrics/*
+
+data/exploration/*
+!data/exploration/.gitkeep

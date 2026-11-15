@@ -1,0 +1,25 @@
+{
+    "dataset_name": "Online Shoppers Purchasing Intention Dataset",
+    "dataset_id": 468,
+    "download_date": "2026-11-13",
+    "rows": 12330,
+    "columns": 18,
+    "missing_values": 0,
+    "duplicate_rows": 125,
+    "target_distribution": {
+        "False": 10422,
+        "True": 1908
+    },
+    "split": {
+        "train_rows": 9864,
+        "test_rows": 2466,
+        "test_size": 0.2,
+        "split_method": "StratifiedGroupKFold",
+        "n_splits": 5,
+        "grouped_by": "Exact duplicate rows",
+        "stratified_by": "Revenue",
+        "random_state": 42
+    },
+    "license": "CC BY 4.0",
+    "doi": "10.24432/C5F88Q"
+}
